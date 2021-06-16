@@ -7,10 +7,28 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Dictionary</h1>
+        <h4>What word would you like to search for?</h4>
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Akxa Alex</footer>
+        <footer>
+          Coded by Akxa Alex, open-sourced on{" "}
+          <a
+            href="https://github.com/akxaalex16/react-dictionary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          {","} hosted on{" "}
+          <a
+            href="https://stupefied-goodall-ffae87.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
