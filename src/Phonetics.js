@@ -4,9 +4,14 @@ export default function Phonetics(props) {
   return (
     <div className="Phonetics">
       {" "}
-      <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
+      <audio
+        controls
+        src={props.phonetic.audio}
+        target="_blank"
+        rel="noreferrer"
+      >
         Audio
-      </a>{" "}
+      </audio>{" "}
       {props.phonetic.text}
     </div>
   );
