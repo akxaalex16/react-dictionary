@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: #aaccb9;
+  width: 600px;
+  margin: 0 auto;
 }
 
 .App h1 {

@@ -9,7 +9,7 @@ export default function App() {
         <h1>Dictionary</h1>
         <h4>What word would you like to search for?</h4>
         <main>
-          <Dictionary />
+          <Dictionary defaultWord="flower" />
         </main>
         <footer>
           Coded by Akxa Alex, open-sourced on{" "}
