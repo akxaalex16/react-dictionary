@@ -21,6 +21,12 @@ export default function Footer() {
         >
           Netlify
         </a>
+        {","}
+        <br />
+        Photos provided by{" "}
+        <a href="https://www.pexels.com/" target="_blank" rel="noreferrer">
+          Pexels
+        </a>
       </footer>
     </div>
   );
