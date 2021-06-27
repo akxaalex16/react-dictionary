@@ -42,10 +42,11 @@ export default function Dictionary(props) {
               placeholder="Search"
               autoFocus={true}
               onChange={keywordChange}
+              defaultValue={props.defaultWord}
             ></input>
           </form>
           <div className="suggestedWords">
-            Suggested words: sunset, exercise, beach, flower...{" "}
+            Suggested words: dream, exercise, beach, flower...{" "}
           </div>
         </section>
         <Results meanings={searchedWord} />

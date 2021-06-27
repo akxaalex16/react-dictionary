@@ -1,6 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -9,27 +10,10 @@ export default function App() {
         <h1>Dictionary</h1>
         <h4>What word would you like to search for?</h4>
         <main>
-          <Dictionary defaultWord="flower" />
+          <Dictionary defaultWord="sunset" />
         </main>
-        <footer>
-          Coded by Akxa Alex, open-sourced on{" "}
-          <a
-            href="https://github.com/akxaalex16/react-dictionary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-          {","} hosted on{" "}
-          <a
-            href="https://stupefied-goodall-ffae87.netlify.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Netlify
-          </a>
-        </footer>
       </div>
+      <Footer />
     </div>
   );
 }

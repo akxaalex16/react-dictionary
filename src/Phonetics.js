@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetics.css";
 
 export default function Phonetics(props) {
   return (
@@ -9,10 +10,8 @@ export default function Phonetics(props) {
         src={props.phonetic.audio}
         target="_blank"
         rel="noreferrer"
-      >
-        Audio
-      </audio>{" "}
-      {props.phonetic.text}
+      ></audio>{" "}
+      <span className="text">({props.phonetic.text})</span>
     </div>
   );
 }
