@@ -1,9 +1,11 @@
 .Definitions h3 {
-  font-size: 24px;
+  font-size: 28px;
   line-height: 30px;
   font-weight: bold;
   text-align: left;
-  color: #b76eb8;
+  color: #000;
+  text-transform: capitalize;
+  font-family: "El Messiri", sans-serif;
 }
 
 .Definitions .definition {

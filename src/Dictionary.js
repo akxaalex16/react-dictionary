@@ -57,10 +57,8 @@ export default function Dictionary(props) {
               onChange={keywordChange}
               defaultValue={props.defaultWord}
             ></input>
+            <input type="submit" value="🔍" className="search"></input>
           </form>
-          <div className="suggestedWords">
-            Suggested words: dream, exercise, beach, flower...{" "}
-          </div>
         </section>
         <Results meanings={searchedWord} />
         <Photos photos={photo} />
